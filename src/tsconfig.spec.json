@@ -1,0 +1,24 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "../out-tsc/spec",
+        "baseUrl": "./",
+        "module": "commonjs",
+        "types": [
+            "jasmine",
+            "node"
+        ],
+        "paths": {
+            "@ngxd/core": [ "../projects/core" ],
+            "@ngxd/forms": [ "../projects/forms" ]
+        }
+    },
+    "files": [
+        "test.ts",
+        "polyfills.ts"
+    ],
+    "include": [
+        "**/*.spec.ts",
+        "**/*.d.ts"
+    ]
+}

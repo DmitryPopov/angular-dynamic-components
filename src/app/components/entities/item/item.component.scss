@@ -1,0 +1,16 @@
+@import 'assets/styles/item.scss';
+
+$height: 468px;
+
+.mat-card {
+    min-height: $height;
+    margin-bottom: 5px;
+}
+
+.mat-card-image {
+    height: $height;
+}
+
+.ability {
+    height: inherit !important;
+}
